@@ -13,7 +13,7 @@ services:
 
   # Spring Boot Application
   devops-app:
-    image: walidmaalej/events:1.0.0  # Replace with your Spring Boot image
+    image: walidmaalej/eventsProject:1.0.0  # Replace with your Spring Boot image
     restart: on-failure
     environment:
       MYSQL_ROOT_PASSWORD: root_password
